@@ -1,0 +1,6 @@
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\bin\Debug\LOLNEXUS.exe.config
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\bin\Debug\LOLNEXUS.exe
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\bin\Debug\LOLNEXUS.pdb
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\obj\Debug\LOLNEXUS.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\obj\Debug\LOLNEXUS.exe
+C:\Users\Daniel\Desktop\Programming Project\First-Project\LOLNEXUS\LOLNEXUS\obj\Debug\LOLNEXUS.pdb
