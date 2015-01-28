@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net; 
-using System.Runtime.Serialization.Json;
+using System.Runtime.Serialization; 
 
 namespace LOLNEXUS
 {
@@ -15,10 +15,12 @@ namespace LOLNEXUS
     {
         static void Main(string[] args)
         {
+            var json = new WebClient().DownloadString("https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/RiotSchmick?api_key=7bbbb1ae-3d29-4d7b-b0d3-498fec6aa27e");
+            Console.WriteLine(result.response.user.firstName);
         }
-         static void Test()
+        /* static void Test()
         {
-            var gamesResult = EF.RiotApi.Client.RiotWeb.API.Game.GetGamesBySummoner(32144);
+           
             foreach (var game in gamesResult.Games)
             {
                 Console.WriteLine("Game {0}", game.GameId);
@@ -35,6 +37,6 @@ namespace LOLNEXUS
                 }
                 Console.WriteLine("\n------------------------------------------------------------");
             }
-        }
+        }*/
     }
-}
+
